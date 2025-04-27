@@ -14,6 +14,10 @@ extra-doc-files:    CHANGELOG.md
 
 common warnings
     ghc-options: -Wall
+    build-depends:    tasty ^>=1.5.3,
+                      tasty-hunit ^>= 0.10.2,  
+                      megaparsec ^>= 9.7.0,
+                      text ^>= 2.1.2
 
 library
     import:           warnings
